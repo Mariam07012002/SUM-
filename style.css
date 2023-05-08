@@ -1,0 +1,31 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 30px;
+}
+section .click_on_me {
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 60px;
+}
+.calc {
+  display: flex;
+}
+.calc #primaryNumber {
+  border: 1px solid black;
+  padding: 40px;
+  background-color: aqua;
+}
+.calc #add {
+  font-size: 80px;
+}
+.calc #secondaryNumber {
+  border: 1px solid black;
+  padding: 40px;
+  background-color: aqua;
+}
+.calc #equal {
+  font-size: 80px;
+}
